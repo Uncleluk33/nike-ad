@@ -1,0 +1,134 @@
+html{
+    font-size: 62.5;
+}
+
+.header{
+
+    &__logo{
+        display: block;
+        width: 2rem;
+        
+    }
+
+    &__img{
+        display: block;
+        width: 100%;
+    }
+}
+
+
+.logo{
+    
+
+    img{
+        width: 4rem;
+    }
+}
+
+.banner{
+
+
+    img{
+        width: 100%;
+    }
+}
+
+.main-text{
+    padding: 1rem 3rem;
+    font-family: sans-serif;
+    text-align: center;
+
+    &__1{
+        font-size: 1rem;
+        color: rgba(#333, .5);
+        margin: 0;
+        margin-bottom: .5rem;
+        
+    }
+
+    &__2{
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        font-weight: 400;
+        color: #333;
+        margin: 0;
+    }
+
+    &__3{
+        color: rgba(#333, .7);
+        font-size: .5rem;
+    }
+
+
+}
+
+.content{
+    
+    background: #fafafa;
+
+    &__row{
+
+        padding: 2rem;
+       
+
+        &-item{
+            text-align: center;
+            font-family: sans-serif;
+            
+                       
+
+            p{
+                margin: 0;
+                padding: 1px;
+                font-size: 13px;
+                font-weight: 600;
+                letter-spacing: .5px;
+                color: #444;
+            }
+
+            a{
+                text-decoration: none;
+                font-weight: 600;
+                font-size: 13px;
+                color: #fff;
+            }
+
+            button{
+                border: none;
+                background: #1a66eb;
+                padding: 6px 12px;
+                border-radius: 7px;
+            }
+        }
+    }
+    
+}
+
+.footer{
+    text-align: center;
+    background-color: #555;
+    color: #eee;
+    font-size: 10px;
+    padding: 1rem 3rem;
+    font-family: 'Teko', sans-serif;
+
+    img{
+        width: 1.5rem;
+    }
+}
+
+
+.star{
+    width: 1.2rem;
+}
+
+hr{
+    width: 78%;
+    height: .5px;
+}
+
+.shoe1{
+    max-width: 80%;
+    // border: 1px solid #ddd;
+    border-radius: 10px;     
+}
